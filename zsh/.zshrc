@@ -109,14 +109,16 @@ alias llll="lll | less"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$VOLTA_HOME/bin:$PATH"
-
-# bun completions
-[ -s "/home/dinislam/.bun/_bun" ] && source "/home/dinislam/.bun/_bun"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Bun
-export BUN_INSTALL="/home/dinislam/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+ export BUN_INSTALL="$HOME/.bun"
+ export PATH="$BUN_INSTALL/bin:$PATH"
+
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Launch tmux
 [[ $- != *i* ]] && return # If not running interactively, do not do anything
 [[ -z "$TMUX" ]] && exec tmux new -A -s "system" -n "shell" # Otherwise start tmux
+
