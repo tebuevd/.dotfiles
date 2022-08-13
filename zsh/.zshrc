@@ -112,8 +112,16 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Bun
- export BUN_INSTALL="$HOME/.bun"
- export PATH="$BUN_INSTALL/bin:$PATH"
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Deno
+export DENO_INSTALL="/home/dinislam/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+ # Fly.dev
+export FLYCTL_INSTALL="/home/dinislam/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
