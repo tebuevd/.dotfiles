@@ -1,0 +1,14 @@
+[user]
+	email = 3241533+tebuevd@users.noreply.github.com
+	name = dinislam tebuev
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDlo/5OsyGFuh12DVxcWjhs0It6dGI41TNaxiyd+eZch
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = "$HOME/.config/git/allowed_signers"
+[commit]
+	gpgsign = true
