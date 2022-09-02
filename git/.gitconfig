@@ -1,7 +1,7 @@
 [user]
 	email = 3241533+tebuevd@users.noreply.github.com
 	name = dinislam tebuev
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDlo/5OsyGFuh12DVxcWjhs0It6dGI41TNaxiyd+eZch
+	signingkey = key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIrqfCtcJ/sEOyBm6Pv410rP0PE+7WM6YNzxkBQZjzv5tJCfH9NzxJbXKPV+ISaJ/y0nie8aR9P0bu/z1X5+CwM= curebase@secretive.mbp14.local
 [init]
 	defaultBranch = main
 [push]
