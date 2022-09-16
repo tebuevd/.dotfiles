@@ -126,7 +126,4 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
-# Launch tmux
-[[ $- != *i* ]] && return # If not running interactively, do not do anything
-[[ -z "$TMUX" ]] && exec tmux new -A -s "system" -n "shell" # Otherwise start tmux
 
