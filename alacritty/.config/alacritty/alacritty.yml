@@ -1,0 +1,20 @@
+font:
+  size: 20
+  normal:
+    family: JetBrains Mono
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - 'tmux new -A -s "system" -n "shell"'
+
+window:
+  opacity: 0.9
+  dimensions:
+    columns: 70
+    lines: 30
+
+mouse:
+  hide_when_typing: true

@@ -1,7 +1,7 @@
 [user]
 	email = 3241533+tebuevd@users.noreply.github.com
 	name = dinislam tebuev
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDlo/5OsyGFuh12DVxcWjhs0It6dGI41TNaxiyd+eZch
+	signingkey = key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBK8zRL/HfIE5oqtYh958m3yDxnQfMPHqzlcLYj07C9YpoIQj+nFU+PIw9LxnImMhGd8Qowp2hn/rfipveF82VWw=
 [init]
 	defaultBranch = main
 [push]

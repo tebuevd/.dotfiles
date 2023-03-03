@@ -88,9 +88,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nvim'
+  export EDITOR='vim'
 else
-  export EDITOR='nvim'
+  export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -127,6 +127,9 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Launch tmux
-[[ $- != *i* ]] && return # If not running interactively, do not do anything
-[[ -z "$TMUX" ]] && exec tmux new -A -s "system" -n "shell" # Otherwise start tmux
+# [[ $- != *i* ]] && return # If not running interactively, do not do anything
+# [[ -z "$TMUX" ]] && exec tmux new -A -s "system" -n "shell" # Otherwise start tmux
 
+export SSH_AUTH_SOCK=/Users/dinislam/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+# bun completions
+[ -s "/Users/dinislam/.bun/_bun" ] && source "/Users/dinislam/.bun/_bun"
