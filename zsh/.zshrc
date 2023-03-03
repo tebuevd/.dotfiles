@@ -130,6 +130,9 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 # [[ $- != *i* ]] && return # If not running interactively, do not do anything
 # [[ -z "$TMUX" ]] && exec tmux new -A -s "system" -n "shell" # Otherwise start tmux
 
-export SSH_AUTH_SOCK=/Users/dinislam/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 # bun completions
 [ -s "/Users/dinislam/.bun/_bun" ] && source "/Users/dinislam/.bun/_bun"
+
+export TERM=alacritty
+
+export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"

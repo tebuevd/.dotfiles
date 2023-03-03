@@ -1,7 +1,7 @@
 [user]
 	email = 3241533+tebuevd@users.noreply.github.com
 	name = dinislam tebuev
-	signingkey = key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBK8zRL/HfIE5oqtYh958m3yDxnQfMPHqzlcLYj07C9YpoIQj+nFU+PIw9LxnImMhGd8Qowp2hn/rfipveF82VWw=
+	signingkey = key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDNssgcnUEXtZ1QKg8Jz4jKeEyvxm7ZOY/Wbu1f5S3SIp+/ApafkX8P9FC1y12QcdkH872vH/SV+Qex+nKyWnCA=
 [init]
 	defaultBranch = main
 [push]
