@@ -132,3 +132,8 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 export TERM=alacritty
 export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
