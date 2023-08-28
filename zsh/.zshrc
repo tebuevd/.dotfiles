@@ -116,11 +116,11 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Deno
-export DENO_INSTALL="/home/dinislam/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
  # Fly.dev
-export FLYCTL_INSTALL="/home/dinislam/.fly"
+export FLYCTL_INSTALL="$HOME/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 # bun completions
@@ -130,6 +130,7 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 # [[ $- != *i* ]] && return # If not running interactively, do not do anything
 # [[ -z "$TMUX" ]] && exec tmux new -A -s "system" -n "shell" # Otherwise start tmux
 
-export SSH_AUTH_SOCK=/Users/dinislam/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
 # bun completions
 [ -s "/Users/dinislam/.bun/_bun" ] && source "/Users/dinislam/.bun/_bun"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
